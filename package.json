@@ -1,7 +1,7 @@
 {
   "name": "@wbe/deferred-promise",
   "version": "1.0.1",
-  "description": "Create deferred promise who can be resolve or reject from anywhere.",
+  "description": "Create a deferred promise who can be resolved or rejected from anywhere.",
   "main": "src/index.ts",
   "private": false,
   "author": "Willy Brauner <mail@willybrauner.com>",
@@ -25,5 +25,8 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@wbe/deferred-promise": "^1.0.1"
   }
 }
