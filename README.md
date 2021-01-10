@@ -1,13 +1,13 @@
 # 🙏🏽 deferred promise
 
-Create deferred promise who can be resolve or reject from anywhere.
+Create a deferred promise who can be resolved or rejected from anywhere.
 
 ## Usage
 
 ````js
-
 import deferredPromise from "@wbe/deferred-promise";
  
+// create deferred promise
 const deferred = deferredPromise();
 
 deferred.promise.then(() => {
@@ -16,6 +16,7 @@ deferred.promise.then(() => {
 
 // when needed, resolve this promise  
 deferred.resolve();
+
 // or reject it
 deferred.reject();
 ````
