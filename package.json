@@ -16,8 +16,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "compile": "tsc -p tsconfig.json",
-    "publish": "npm run test && npm run compile && npm publish --access public"
+    "compile": "tsc -p tsconfig.json"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
