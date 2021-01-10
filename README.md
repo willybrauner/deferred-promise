@@ -6,7 +6,7 @@ Create deferred promise who can be resolve or reject from anywhere.
 
 ````js
 
-import deferredPromise from "@wbe/deferredPromise";
+import deferredPromise from "@wbe/deferred-promise";
  
 const deferred = deferredPromise();
 
