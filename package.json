@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "description": "Create deferred promise who can be resolve or reject from anywhere.",
   "main": "src/index.ts",
-  "scripts": {
-    "test": "jest",
-    "compile": "tsc -p tsconfig.json"
+  "private": false,
+  "author": "Willy Brauner <mail@willybrauner.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willybrauner/deferred-promise"
   },
+  "license": "MIT",
   "keywords": [
     "promise",
     "typescript"
   ],
-  "author": "Willy Brauner <mail@willybrauner.com>",
-  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc -p tsconfig.json",
+    "publish": "npm run test && npm run compile && npm publish"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.20",
