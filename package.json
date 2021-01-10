@@ -1,5 +1,5 @@
 {
-  "name": "deferred-promise",
+  "name": "@wbe/deferred-promise",
   "version": "1.0.0",
   "description": "Create deferred promise who can be resolve or reject from anywhere.",
   "main": "src/index.ts",
@@ -11,7 +11,7 @@
     "promise",
     "typescript"
   ],
-  "author": "Willy Brauner",
+  "author": "Willy Brauner <mail@willybrauner.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.20",
