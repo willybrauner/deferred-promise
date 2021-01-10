@@ -1,6 +1,6 @@
 {
   "name": "@wbe/deferred-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create deferred promise who can be resolve or reject from anywhere.",
   "main": "src/index.ts",
   "private": false,
