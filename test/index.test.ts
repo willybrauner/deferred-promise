@@ -1,4 +1,4 @@
-import deferredPromise from "../src"
+import { deferredPromise } from "../src";
 
 const wait = (time: number): Promise<void> =>
   new Promise(resolve => setTimeout(resolve, time))
